@@ -1,305 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="TheFindPreci_Part1.css">
-  <title>Find the precious bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FindThePrecious</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="TESTTheFindPreci_Part1.css">
 </head>
+
 <body>
-  
-<!-- Nav -->
-    <div class="container-fluide">
-      <ul class="nav nav-pills expand-lg bg-dark text-light bg-dark d-flex justify-content-around col-12-lg ">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+
+<!-- navbar -->
+<header>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light fond-orange">
+    <img src="https://image.noelshack.com/fichiers/2019/11/2/1552384791-logo.png" alt="logo">
+    <a class="navbar-brand" href="#Menu"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse menu-droite" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link texte-blanc" href="#Fellows">Fellows<span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
+        </li>
         <li class="nav-item">
-          <a class="nav-link text-light bg-dark" href="#">FindThePrecious.com</a></li>
-          <li class="nav-item">
-            <a class="nav-link text-light bg-dark" href="#Fellow">Fellow</a></li>
-            <li class="nav-item">
-              <a class="nav-link text-light bg-dark" href="#Ring">The Ring</a></li>
-              <li class="nav-item">
-                <a class="nav-link text-light bg-dark" href="#Get" tabindex="-1" aria-disabled="true">Get my reward</a></li>
-                <li class="nav-item">
-                  <a class="nav-link text-light bg-dark" href="#Best" tabindex="-1" aria-disabled="true">Best hunter</a></li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light bg-dark" href="#Join" tabindex="-1" aria-disabled="true">Join the army</a></li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light bg-dark" href="#Contact" tabindex="-1" aria-disabled="true">Contact us</a></li>
-                    </ul>
-                  </div>
-  
-  <!--Carousel-->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <a class="nav-link texte-blanc" href="#TheRing">The Ring</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link texte-blanc" href="#Reward">Reward</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link texte-blanc" href="#Hunters">Hunters</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link texte-blanc" href="#Army">Join</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link texte-blanc" href="#Contact">Contact</a>
+        </li>
+       </ul>
+    </div>
+  </nav>
+</div>
+</header>
+<!-- fin navbar -->
+
+<!-- carrousel -->
+<section>
+<div class="container bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100"
-          src="http://static.hitek.fr/img/actualite/2017/07/21/w_seigneur-anneaux-star-wars.jpg"
-          height="450" width="300" alt="First slide">
+        <img src="https://image.noelshack.com/fichiers/2019/11/2/1552386497-vador.jpg" class="d-block w-100" alt="Gandalf">
         <div class="carousel-caption d-none d-md-block">
-          <p>Fights with your friends</p>
+          <h1>sauron is very good bro,</h1>
+          <p>Please help him to find the ring</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100"
-          src="http://static.hitek.fr/img/actualite/7151764-10965637.jpg"  height="450" width="300"
-          alt="Second slide">
+        <img src="https://image.noelshack.com/fichiers/2019/11/2/1552423133-xphotogramme-le-retour-du-roi-770x340-png-pagespeed-ic-kj65dvgqze.jpg"  class="d-block w-100" alt="Gandalf">
         <div class="carousel-caption d-none d-md-block">
-          <p>Goblins, Balrogs, protect your master Sauron !</p>
+          <h1>The threat</h1>
+          <p>Dangerous fellowship try to destroy the ring</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100"
-          src="http://static.hitek.fr/img/actualite/2015/03/w_p1020633-1600x1200.JPG"  height="450" width="300"
-          alt="Third slide">
+        <img src="https://image.noelshack.com/fichiers/2019/11/2/1552423179-16049943lpw-16050485-article-jpg-5455487.jpg" class="d-block w-100" alt="Gobelins">
         <div class="carousel-caption d-none d-md-block">
-          <p>We need you</p>
+          <h1>Protect your master</h1>
+          <p>Orcs, Goblins, Balrods, protect your master Sauron !</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://image.noelshack.com/fichiers/2019/11/2/1552424503-01-fellowship-frodo.jpg" class="d-block w-100" alt="Anneau">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>The reward</h1>
+          <p>Get the ring !</p>
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
-  
-  <!--Most Wanted-->
- <ul class="nav nav-pills nav-fill justify-content-center black">
-    <li class="nav-item col-lg-2 col-sm-6">
-      <a class="nav-link active" href="#">Most wanted</a>
-    </li>
-    <li class="nav-item col-lg-2 col-sm-6">
-      <a class="nav-link active" href="#">Most dangerous</a>
-    </li>
-    <li class="nav-item col-lg-2 col-sm-6">
-      <a class="nav-link active" href="#">Already captured</a>
-    </li>
-  </ul>
-  
-  <!--Reward-->
-   <div id="wanted">
-			<div class="all">
-				<img src="https://vignette.wikia.nocookie.net/seigneur-des-anneaux/images/4/40/Gandalf_Le_Gris.jpg/revision/latest?cb=20180618171819&path-prefix=fr" alt="photo wizard"/>
-				<h3>reward <span>1000</span> golden coins</h3>
-				<h2>Gandalf</h2>
-				<p>Small description</p>
-			</div>
-			<div class="all">
-				<img src="https://vignette.wikia.nocookie.net/seigneur-des-anneaux/images/4/40/Gandalf_Le_Gris.jpg/revision/latest?cb=20180618171819&path-prefix=fr" alt="photo dead"/>
-        <h3>DEAD</h3>
-				<h2>Gandalf</h2>
-				<p>Small description</p>
-			</div>
-			<div class="all">
-				<img src="https://vignette.wikia.nocookie.net/seigneur-des-anneaux/images/4/40/Gandalf_Le_Gris.jpg/revision/latest?cb=20180618171819&path-prefix=fr" alt="photo Yummi"/>
-				<h3>reward <span>250</span> golden coins</h3>
-				<h2>Gandalf</h2>
-				<p>Small description</p>
-			</div>
-		</div>
-  
-  <!--Captured-->
-  <div class="container">
-    <div class="row">
-      <div class="col-8">
-        <h2 id="reward">I have captured one of them, how to get my reward?</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, sem eu sagittis
-          interdum, lacus lectus rhoncus erat, a placerat nibh lorem et lectus. Proin ultrices nunc id rutrum elementum.
-          Nam porttitor dignissim ullamcorper. Duis tempor hendrerit nisl, sit amet venenatis massa. Suspendisse
-          potenti. Nam tempor viverra est at bibendum. Sed ut urna tincidunt, fringilla neque nec, commodo purus. Morbi
-          vehicula est non quam elementum maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-          per inceptos himenaeos. Ut tempus lectus in quam tempus, sed faucibus eros placerat. Curabitur placerat
-          accumsan libero et porta. Nam eleifend congue mauris id auctor.</p>
-      </div>
-      <div class="row align-items-end">
-        <div class="">
-          <img class="rounded left-right"
-            src="https://res.cloudinary.com/dn4gqvfba/image/upload/v1551630520/Findtheprecious/maxresdefault.jpg"
-            alt="Card image cap">
-        </div>
-      </div>
-    </div>
-        <div class="row justify-content-center">
-      <a href="#" class="btn btn-primary">Contact us</a>
-    </div>
-  </div>
-<hr>
-  
-  <!--Best Hunters-->
-  <div class="container">
-    <div class="row">
-      <h2 id="hunters">Best hunters</h2>
-    </div>
-  </div>
+</div>
+</section>
+<!-- carrousel fin -->
 
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="media">
-        <img class="mr-3"
-          src="https://static1.ozap.com/articles/5/45/46/75/@/4463042--le-seigneur-des-anneaux-dixieme-128x128-2.jpg"
-          alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0">Frodon</h5>
-          <p>220 captures - <a href="">Profile</a></p>
-          <a href="https://www.webmarketing-com.com/wp-content/uploads/2013/08/like-facebook-467x198.jpg" ></a>
-        </div>
-      </div>
-       <div class="media">
-        <img class="mr-3"
-          src="http://images6.fanpop.com/image/photos/38900000/Lord-Of-The-Rings-lord-of-the-rings-38909163-128-128.jpg" 
-          alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0">Media heading</h5>
-          <p>99 captures - <a href="..">Profile</a></p>
-          <a href="https://www.webmarketing-com.com/wp-content/uploads/2013/08/like-facebook-467x198.jpg"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-  
-  <!--About the ring-->
-  <div class="container">
-    <div class="row">
-      <h2 id="thering">About the ring</h2>
-    </div>
-  </div>
-
-  <div class="container ">
-    <div class="card">
-      <div class="card-header">
-        Ring Capabilities
-      </div>
-      <div class="card-body text-center">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">Feature</th>
-              <th scope="col">Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Main</td>
-              <td>One ring to rules them all</td>
-            </tr>
-            <tr>
-              <td>Invisibility</td>
-              <td>You can't see me</td>
-            </tr>
-            <tr>
-              <td>Power</td>
-              <td>Destroy the world</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-  
-<!--Gollum-->
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        Why the ring is awesome ?
-      </div>
-      <div class="card-body">
-        <blockquote class="blockquote mb-0">
-          <p>MY preciooooooooouuuussss! Hrk Hrk, we want our preciiiiiooooous !!</p>
-          <div class="blockquote-footer">Gollum</div>
-        </blockquote>
-        <img src="https://res.cloudinary.com/dn4gqvfba/image/upload/v1551634418/Findtheprecious/hossein-diba-34.jpg"
-          class="gollum rounded float-right" alt="gollum">
-      </div>
-    </div>
-  </div>
-  <hr>
-  
-  <!--Join the army-->
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-10">
-        <img class="rounded float-left"
-          src="https://laterredumilieu.fr/ressources/images/bfme2icon"
-          width="150" height="150" alt="Card image cap">
-        <h2 id="army">Join the Army, we need you!</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, sem eu sagittis
-          interdum, lacus lectus rhoncus erat, a placerat nibh lorem et lectus. Proin ultrices nunc id rutrum elementum.
-          Nam porttitor dignissim ullamcorper. Duis tempor hendrerit nisl, sit amet venenatis massa. Suspendisse
-          potenti. Nam tempor viverra est at bibendum. Sed ut urna tincidunt, fringilla neque nec, commodo purus. Morbi
-          vehicula est non quam elementum maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-          per inceptos himenaeos. Ut tempus lectus in quam tempus, sed faucibus eros placerat. Curabitur placerat
-          accumsan libero et porta. Nam eleifend congue mauris id auctor.</p>
-        </div>
-      </div>     
-    </div>
-      <hr>
-      
-      <!--Contact Us-->
+<!-- pills -->
 <div class="container">
-    <h2 id="contact">Contact us</h2>
-    <div class="row justify-content-center">
-      <div class="col-lg-12 col-sm-8">
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@">
+<section id="Fellows" class="fond-gris">
+  <h2><span class="caractere">ij</span> Fellows wanted dead <span class="fellowsintervalle">(or alive if you want to eat them later)</span><span class="caractere">ij</span></h2>
+    <div class="container">
+      <ul class="nav nav-pills pillsfellows">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Most wanted</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><span class="caractere2">b</span>Most dangerous<span class="caractere2">b</span></a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#">Already captured</a>
+        </li>
+       </ul>
+    </div>
+<!-- pills fin -->
+<br>
+<!-- cards images -->
+<div class="container">
+  <div class="row gandalfflex">
+        <div class="card gandalfimage" style="width: 18rem;">
+              <img src="https://image.noelshack.com/fichiers/2019/11/2/1552407497-gandalf.png" class = "card-img-top" alt="Gandalf">
+            <p class ="reward">reward <span class = "coins">1000</span> golden coins</p>
+            <div class="gandalf">
+              <p>Gandalf </p>
+            </div>
+            <div class="card-body">
+            <p class="card-text">A very dangerous wizard, balrog killer...</p>
+            </div>
+        </div>    
+        <div class="card hobbitimage" style="width: 18rem;">
+            <img src="https://image.noelshack.com/fichiers/2019/11/2/1552408004-aragorn.png" class="card-img-top" alt="Hobbit">
+            <p class ="reward">reward <span class = "coins">800</span> golden coins</p>
+            <div class="hobbit">
+              <p>Aragorn</p>
+            </div>
+            <div class="card-body">
+            <p class="card-text">Sauron's finger says him his sword is dangerous...</p>
+            </div>
+        </div>
+        <div class="card dwarfimage" style="width: 18rem;">
+            <img src="https://image.noelshack.com/fichiers/2019/11/2/1552408037-gimli.png" class="card-img-top" alt="Dwarf">
+            <p class ="reward">reward <span class = "coins">250</span> golden coins</p>
+            <div class="dwarf">
+              <p>Gimli</p>
+            </div>
+            <div class="card-body">
+            <p class="card-text">A dwarf, with a beard and an axe...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- fin cards images -->
+</section>
+</div>
+
+<div class="container">
+<section id="Reward" class="fond-noir">
+    <h2><span class="caractere">ij</span>I have capured one of them, how to get my reward ?<span class="caractere">ij</span></h2>
+    <br>
+    <div class="container">
+      <div class="row">
+      <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod dignissim orci at finibus. Maecenas dignissim pharetra hendrerit. Suspendisse potenti. Proin malesuada ultrices accumsan. Pellentesque quis neque risus. Donec venenatis nunc vitae odio molestie tincidunt. Integer nunc ante, porta vel pharetra at, ornare vitae ipsum.</p>
+      <img src = "https://image.noelshack.com/fichiers/2019/11/2/1552414927-coin-sauron.png" class="col-2 image-ronde" alt = "placeholder1" />
+      </div>
+    </div>
+    <div class="container boutoncontact">
+      <button type="button" class="btn btn-secondary">Contact us</button>
+    </div>
+</section>
+</div>
+
+<div class="container">
+<section id="Hunters" class="fond-gris">
+
+    <!--menumedia déb-->
+<h2><span class="caractere">ij</span>Our best hunters<span class="caractere">ij</span></h2>
+        
+<div class="container">
+    <div class="row besthunters">
+        <div class="media">
+        <img src="https://image.noelshack.com/fichiers/2019/11/2/1552414974-hunter1.png" class="align-self-start mr-3" alt="Hunter1">
+        <div class="media-body">
+          <h5 class="mt-0">ElvesKiller22</h5>
+          <p>2 captures - Profile</p>
+          <button type="button" class="btn btn-primary">
+                Like<span class="badge badge-light">68k</span>
+                </button>
+        </div>
+        </div>
+        <div class="media">
+          <img src="https://image.noelshack.com/fichiers/2019/11/2/1552415067-hunter2.png" class="align-self-start mr-3" alt="Hunter2">
+          <div class="media-body">
+            <h5 class="mt-0">Goblin45</h5>
+            <p>1 capture - Profile</p>
+            <button type="button" class="btn btn-primary">
+                Like<span class="badge badge-light">68k</span>
+                </button>
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="home">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1"></label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>I have seen one of them</option>
-              <option>Sauron</option>
-              <option>Hobbit</option>
-              <option>Wizard</option>
-              <option>Dwarf</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="your message"
-              rows="3"></textarea>
-          </div>
-        </form>
+        </div>
+    </div>
+</div>
+
+<!-- menumedia fin -->
+
+</section>
+</div>
+
+<div class="container">
+<section id="TheRing" class="fond-noir">
+  <h2><span class="caractere">ij</span>About the ring<span class="caractere">ij</span></h2>
+    <div class="container texte-noir">
+      <div class="card">
+        <div class="card-header fond-orange">
+          <h3>Ring Capabilities</h3>
+        </div>
+        <div class="card-body tableau-gris">
+          <h5 class="card-title">What can our master Sauron do with the ring ?</h5>
+          <p class="card-text"><table class="table table-bordered montableau">
+              <thead>
+                <tr>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Main</td>
+                  <td>One ring to rules them all</td>
+                </tr>
+                <tr>
+                  <td>Invisibility</td>
+                  <td>You can't see me</td>
+                </tr>
+                <tr>
+                  <td>Power</td>
+                  <td>Destroy the world</td>
+                </tr>
+              </tbody>
+            </table>        
+        </div>
+      </div>
+    </div>
+<br>    
+  <div class="container texte-noir"> 
+    <div class="card">
+      <div class="card-header fond-orange">
+        <h3>Why the ring is awesome ? </h3>
+      </div>
+        <div class="row">
+        <div class="card-body col-9">
+          <p class="card-text">My preciooooooussssss ! Hrk Hrk, we want our preeciooooouuusssss !!</p>
+          <p class="card-text">Gollum</p>
+        </div>
+        <img src="https://image.noelshack.com/fichiers/2019/11/2/1552415114-gollum.png" class="col-3 image-ronde" alt="Gollum">
+        </div>
+    </div>
+  </div>  
+</section>
+</div>
+
+<div class="container">
+<section id="Army" class="fond-gris">
+  <h2><span class="caractere">ij</span>Join Mordor Army, we need you !<span class="caractere">ij</span></h2>
+  <div class="container">
+    <div class="row">
+      <p class="col-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod dignissim orci at finibus. Maecenas dignissim pharetra hendrerit. Suspendisse potenti. Proin malesuada ultrices accumsan. Pellentesque quis neque risus. Donec venenatis nunc vitae odio molestie tincidunt. Integer nunc ante, porta vel pharetra at, ornare vitae ipsum.</p>
+      <img src = "https://image.noelshack.com/fichiers/2019/11/2/1552415181-army.png" class="col-4" alt = "placeholder5" />
+    </div>
+    <div class="row">
+      <img class="col-3" src="https://image.noelshack.com/fichiers/2019/11/2/1552415282-weneedyou-1.png" alt="join us"/>
+      <div class="bouton-site boutoncontact">
+        <p>More info on</p>
+        <button type="button" class="btn btn-secondary">SauronRulesThemAll.com</button>
       </div>
     </div>
   </div>
-  <hr>
-      
-<!--Footer-->
-  <footer>
-    <div class="container-fluide">
-      <ul class="nav nav-pills expand-lg bg-dark text-light bg-dark d-flex justify-content-around col-12-lg ">
-        <li class="nav-item">
-          <a class="nav-link text-light bg-dark" href="#">About</a></li>
-          <li class="nav-item">
-            <a class="nav-link text-light bg-dark" href="#Fellow">Fellow</a></li>
-            <li class="nav-item">
-              <a class="nav-link text-light bg-dark" href="#Ring">Join our army</a></li>
-              <li class="nav-item">
-                <a class="nav-link text-light bg-dark" href="#Get" tabindex="-1" aria-disabled="true">FAQ</a></li>
-                <li class="nav-item">
-                  <a class="nav-link text-light bg-dark" href="#Best" tabindex="-1" aria-disabled="true">Reward conditions</a></li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light bg-dark" href="#Join" tabindex="-1" aria-disabled="true">Legal mentions</a></li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light bg-dark" href="#Contact" tabindex="-1" aria-disabled="true">Sauron4Ever.com</a></li>
-                    </ul>
-                  </div>
-                </footer>
-              
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</section>
+</div>
 
-  </body>
+<!-- contact form -->
+<div class="container">
+<section id="Contact" class="fond-noir">
+  <h2><span class="caractere">ij</span>Contact Us<span class="caractere">ij</span></h2>
+  <br>
+  <div class="container contact-us">
+    <div class="row">
+        <div class="col-6">
+          <input class="form-control form-control-lg" type="text" placeholder="@">
+          <br>
+          <input class="form-control" type="text" placeholder="Adress">
+          <br>
+          <select class="form-control form-control-lg">
+            <option>I have seen of them</option>
+            <option>Other</option>
+            
+          </select>
+        </div>
+        <div class="col-6">
+          <img src="https://image.noelshack.com/fichiers/2019/11/2/1552424078-map.png" alt="carte" class="contact-carte">
+        </div>  
+      </div>
+    </div>
+</section>
+</div>
+<!-- fin contact form -->
+
+<footer>
+  <div class="container">
+    <div class="row basdepage">
+      <div class="col-4">
+        <p>About us</p>
+        <p>Fellows</p>
+        <p>Join our army</p>
+      </div>
+      <div class="col-4">
+        <p>FAQ</p>
+        <p>Reward conditions</p>
+        <p>Legal mentions</p>
+      </div>
+      <div class="col-4">
+        <p>Sauron4Ever.com</p>
+        <p>Follow him also on twitter</p>
+        <div class="container">
+        <img class="logo-fin" src="https://image.noelshack.com/fichiers/2019/11/2/1552384791-logo.png" alt="logo">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
 </html>
