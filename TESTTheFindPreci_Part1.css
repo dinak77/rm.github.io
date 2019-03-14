@@ -76,31 +76,32 @@
   
   @font-face {
     font-family: 'partybusiness';
-    src: url('/home/mickael/Documents/gitFTP/rm.github.io/fonts/nancy-lorenz_party-business/partybusiness.ttf') format("truetype");
+    src: url('fonts/nancy-lorenz/partybusiness.ttf') format("truetype");
   }
   
   @font-face {
     font-family: 'aniron';
-    src: url('Polices/aniron/anicb___.ttf') format("truetype"),;
-    src: url('Polices/aniron/anicm___.ttf') format("truetype"),;
-    src: url('Polices/aniron/anirb___.ttf') format("truetype"),;
-    src: url('Polices/aniron/anirm___.ttf') format("truetype");
+    src: url('fonts/pete-klassen_aniron/anicb___.ttf') format("truetype");
+
   }
   
   @font-face {
-    font-family: tengwar;
-    src: url('/home/mickael/Documents/gitFTP/rm.github.io/fonts/pete-klassen_aniron/anicb___.ttf') format("truetype"),;
-    src: url('/home/mickael/Documents/gitFTP/rm.github.io/fonts/pete-klassen_aniron/tnganb.ttf') format("truetype"),;
-    src: url('/home/mickael/Documents/gitFTP/rm.github.io/fonts/pete-klassen_aniron//tnganbi.ttf') format("truetype"),;
-    src: url('/home/mickael/Documents/gitFTP/rm.github.io/fonts/pete-klassen_aniron//tngani.ttf') format("truetype");
+    font-family: 'tengwar';
+    src: url('fonts/tengwar/tngan.ttf') format("truetype");
   }
   
+  * {
+    font-family: 'aniron';
+  }
+  h1 {
+    font-family: 'partybusiness';
+  }
   h2 {
-    font-family: aniron;
+    font-family: 'aniron';
   }
   
   p {
-    font-family: partybusiness;
+    font-family: 'partybusiness';
   }
   
   .caractere {
@@ -215,6 +216,7 @@
     opacity : 0.8;
     border-radius : 10px;
     text-align:center;
+    font-size: 4 rem;
   }
   
   .gandalfimage .coins {
@@ -351,6 +353,7 @@
     font-size: 60px;
     color:white;
     text-align:center;
+    text-decoration: line-through;
   }
   
   .dwarfimage:hover{
@@ -369,4 +372,5 @@
       color:white;
       top: 48%;
       left: 8%;  
+      text-decoration: none;
   }
